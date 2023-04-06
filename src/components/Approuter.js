@@ -20,7 +20,7 @@ const Approuter = () => {
         <Redirect  to='/mainpage' />
         </Route>
 
-      <Route exact path="/mainpage" component={Mainpage} />
+      <Route exact path="/mainpage"  component={Mainpage} />
 
       <Route  path='/scheduleapp' component={Scheduleapp} />
       <Route  path="/calender" component={Calender} />
